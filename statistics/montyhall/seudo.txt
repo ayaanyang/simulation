@@ -1,0 +1,22 @@
+scenario 1 gamer select wrong door and do not change his answer
+#########
+door = [0,0,1]
+cnt_win = 0
+cnt_loss = 0
+for(1000)
+	select random number
+	if door[random number] == 1
+		cnt_win += 1
+	elif door[random number] == 0
+		cnt_loss += 1
+	else
+		error
+print cnt_win
+print cnt_loss
+#########
+
+
+
+		
+		
+
